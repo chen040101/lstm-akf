@@ -1,0 +1,31 @@
+{
+  "fit_seconds": 241.2015512000071,
+  "train_samples": 15138,
+  "feature_dim": 30,
+  "target_dim": 30,
+  "artifact_path": "E:\\desktop\\yolo-lstm-akf\\newlstm-akf\\Baseline Models\\svr\\artifacts\\model.pkl",
+  "estimator_params": {
+    "memory": "None",
+    "steps": "[('scaler', StandardScaler()), ('model', MultiOutputRegressor(estimator=SVR(C=10.0, epsilon=0.01)))]",
+    "transform_input": "None",
+    "verbose": "False",
+    "scaler": "StandardScaler()",
+    "model": "MultiOutputRegressor(estimator=SVR(C=10.0, epsilon=0.01))",
+    "scaler__copy": "True",
+    "scaler__with_mean": "True",
+    "scaler__with_std": "True",
+    "model__estimator__C": "10.0",
+    "model__estimator__cache_size": "200",
+    "model__estimator__coef0": "0.0",
+    "model__estimator__degree": "3",
+    "model__estimator__epsilon": "0.01",
+    "model__estimator__gamma": "'scale'",
+    "model__estimator__kernel": "'rbf'",
+    "model__estimator__max_iter": "-1",
+    "model__estimator__shrinking": "True",
+    "model__estimator__tol": "0.001",
+    "model__estimator__verbose": "False",
+    "model__estimator": "SVR(C=10.0, epsilon=0.01)",
+    "model__n_jobs": "None"
+  }
+}

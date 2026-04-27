@@ -1,0 +1,26 @@
+{
+  "fit_seconds": 0.006072400021366775,
+  "train_samples": 15138,
+  "feature_dim": 30,
+  "target_dim": 30,
+  "artifact_path": "E:\\desktop\\yolo-lstm-akf\\newlstm-akf\\Baseline Models\\knn\\artifacts\\model.pkl",
+  "estimator_params": {
+    "memory": "None",
+    "steps": "[('scaler', StandardScaler()), ('model', KNeighborsRegressor(weights='distance'))]",
+    "transform_input": "None",
+    "verbose": "False",
+    "scaler": "StandardScaler()",
+    "model": "KNeighborsRegressor(weights='distance')",
+    "scaler__copy": "True",
+    "scaler__with_mean": "True",
+    "scaler__with_std": "True",
+    "model__algorithm": "'auto'",
+    "model__leaf_size": "30",
+    "model__metric": "'minkowski'",
+    "model__metric_params": "None",
+    "model__n_jobs": "None",
+    "model__n_neighbors": "5",
+    "model__p": "2",
+    "model__weights": "'distance'"
+  }
+}

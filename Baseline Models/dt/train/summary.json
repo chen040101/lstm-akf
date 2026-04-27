@@ -1,0 +1,21 @@
+{
+  "fit_seconds": 0.5600297000491992,
+  "train_samples": 15138,
+  "feature_dim": 30,
+  "target_dim": 30,
+  "artifact_path": "E:\\desktop\\yolo-lstm-akf\\newlstm-akf\\Baseline Models\\dt\\artifacts\\model.pkl",
+  "estimator_params": {
+    "ccp_alpha": "0.0",
+    "criterion": "'squared_error'",
+    "max_depth": "12",
+    "max_features": "None",
+    "max_leaf_nodes": "None",
+    "min_impurity_decrease": "0.0",
+    "min_samples_leaf": "1",
+    "min_samples_split": "2",
+    "min_weight_fraction_leaf": "0.0",
+    "monotonic_cst": "None",
+    "random_state": "42",
+    "splitter": "'best'"
+  }
+}

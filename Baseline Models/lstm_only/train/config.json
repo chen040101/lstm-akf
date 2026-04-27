@@ -1,0 +1,54 @@
+{
+  "model_name": "LSTM-only",
+  "model_type": "lstm_only",
+  "trainable": true,
+  "model": {
+    "input_size": 2,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "dropout": 0.1,
+    "max_history": 15,
+    "min_history": 5,
+    "future_steps": 15,
+    "use_baseline": false
+  },
+  "epochs": 50,
+  "batch_size": 64,
+  "optimizer": "Adam",
+  "scheduler": "StepLR",
+  "lr": 0.001,
+  "scheduler_step_size": 30,
+  "scheduler_gamma": 0.5,
+  "weight_decay": 0.0,
+  "beta": 1.0,
+  "residual_aux_weight": 0.0,
+  "direct_aux_weight": 0.0,
+  "device": "cuda",
+  "dataset": {
+    "min_history": 5,
+    "max_history": 15,
+    "future_steps": 15,
+    "dt": 1.0,
+    "process_noise": 0.0001,
+    "measurement_noise": 0.001,
+    "initial_covariance": 1.0,
+    "adaptive_measurement_noise": true,
+    "measurement_noise_min_scale": 0.25,
+    "measurement_noise_max_scale": 16.0,
+    "innovation_gain": 1.0,
+    "innovation_smoothing": 0.2,
+    "confidence_gain": 1.0,
+    "missing_process_noise_scale": 1.35,
+    "max_process_noise_scale": 6.0
+  },
+  "dataset_fingerprint": {
+    "train": {
+      "sample_count": 15138,
+      "sha256": "e83f54a0fd3a40a247c814da95c9d4343936d0a7f55dd03c91a3252b6954f3f3"
+    },
+    "val": {
+      "sample_count": 3784,
+      "sha256": "38be4c414b84eace0d1045a7dee348d57c68d19365c47f6835317cd444b27ac7"
+    }
+  }
+}

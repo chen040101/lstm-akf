@@ -1,0 +1,26 @@
+{
+  "fit_seconds": 0.018216000054962933,
+  "train_samples": 15138,
+  "feature_dim": 30,
+  "target_dim": 30,
+  "artifact_path": "E:\\desktop\\yolo-lstm-akf\\newlstm-akf\\Baseline Models\\ar\\artifacts\\model.pkl",
+  "estimator_params": {
+    "memory": "None",
+    "steps": "[('scaler', StandardScaler()), ('model', Ridge())]",
+    "transform_input": "None",
+    "verbose": "False",
+    "scaler": "StandardScaler()",
+    "model": "Ridge()",
+    "scaler__copy": "True",
+    "scaler__with_mean": "True",
+    "scaler__with_std": "True",
+    "model__alpha": "1.0",
+    "model__copy_X": "True",
+    "model__fit_intercept": "True",
+    "model__max_iter": "None",
+    "model__positive": "False",
+    "model__random_state": "None",
+    "model__solver": "'auto'",
+    "model__tol": "0.0001"
+  }
+}

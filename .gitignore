@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+outputs/*/train/*.png
+outputs/*/train/*.csv
+outputs/*/val/*.json
+outputs/*/checkpoints/*.pt
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+{
+  "model_name": "AKF-only",
+  "model_type": "akf_only",
+  "trainable": false,
+  "future_steps": 15,
+  "dataset": {
+    "min_history": 5,
+    "max_history": 15,
+    "future_steps": 15,
+    "dt": 1.0,
+    "process_noise": 0.0001,
+    "measurement_noise": 0.001,
+    "initial_covariance": 1.0,
+    "adaptive_measurement_noise": true,
+    "measurement_noise_min_scale": 0.25,
+    "measurement_noise_max_scale": 16.0,
+    "innovation_gain": 1.0,
+    "innovation_smoothing": 0.2,
+    "confidence_gain": 1.0,
+    "missing_process_noise_scale": 1.35,
+    "max_process_noise_scale": 6.0
+  }
+}

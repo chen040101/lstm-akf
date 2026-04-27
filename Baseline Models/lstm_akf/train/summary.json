@@ -1,0 +1,6 @@
+{
+  "status": "loaded_external_checkpoint",
+  "checkpoint_path": "E:\\desktop\\yolo-lstm-akf\\newlstm-akf\\Baseline Models\\lstm_akf\\checkpoints\\best.pt",
+  "total_params": 92221,
+  "trainable_params": 92221
+}

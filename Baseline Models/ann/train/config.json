@@ -1,0 +1,23 @@
+{
+  "model_name": "ANN",
+  "model_type": "ann",
+  "trainable": true,
+  "feature_shape": [
+    15138,
+    30
+  ],
+  "target_shape": [
+    15138,
+    30
+  ],
+  "dataset_fingerprint": {
+    "train": {
+      "sample_count": 15138,
+      "sha256": "e83f54a0fd3a40a247c814da95c9d4343936d0a7f55dd03c91a3252b6954f3f3"
+    },
+    "val": {
+      "sample_count": 3784,
+      "sha256": "38be4c414b84eace0d1045a7dee348d57c68d19365c47f6835317cd444b27ac7"
+    }
+  }
+}
