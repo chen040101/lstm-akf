@@ -2,383 +2,551 @@
   "split_mode": "segment",
   "val_ratio": 0.2,
   "split_seed": 42,
-  "total_records": 18922,
-  "total_groups": 61,
+  "total_records": 7393,
+  "total_groups": 89,
   "train": {
-    "record_count": 15138,
-    "group_count": 57,
+    "record_count": 5915,
+    "group_count": 85,
     "groups": [
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 0,
-        "sample_count": 3
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 1,
-        "sample_count": 21
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 11,
-        "sample_count": 488
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 15,
-        "sample_count": 387
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 16,
-        "sample_count": 1
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 17,
-        "sample_count": 247
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 18,
-        "sample_count": 21
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 19,
-        "sample_count": 13
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 2,
-        "sample_count": 43
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 20,
-        "sample_count": 15
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 21,
-        "sample_count": 19
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 22,
-        "sample_count": 8
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 23,
-        "sample_count": 6
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 25,
-        "sample_count": 271
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 26,
-        "sample_count": 79
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 27,
-        "sample_count": 244
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 28,
-        "sample_count": 7
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 29,
-        "sample_count": 78
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 3,
-        "sample_count": 5
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 30,
-        "sample_count": 37
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 31,
-        "sample_count": 153
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 33,
-        "sample_count": 55
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 34,
-        "sample_count": 24
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 35,
-        "sample_count": 53
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test",
-        "segment_index": 37,
-        "sample_count": 49
-      },
       {
         "split_mode": "segment",
         "video_stem": "test1",
         "segment_index": 0,
-        "sample_count": 871
+        "sample_count": 809
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
         "segment_index": 0,
-        "sample_count": 733
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 1,
-        "sample_count": 41
+        "sample_count": 53
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
         "segment_index": 10,
-        "sample_count": 969
+        "sample_count": 10
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 12,
-        "sample_count": 26
+        "segment_index": 100,
+        "sample_count": 18
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 13,
-        "sample_count": 20
+        "segment_index": 101,
+        "sample_count": 493
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 14,
-        "sample_count": 501
+        "segment_index": 102,
+        "sample_count": 41
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 15,
-        "sample_count": 1340
+        "segment_index": 105,
+        "sample_count": 22
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 16,
-        "sample_count": 452
+        "segment_index": 106,
+        "sample_count": 49
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 17,
-        "sample_count": 920
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 19,
-        "sample_count": 91
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 2,
-        "sample_count": 216
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 20,
-        "sample_count": 1264
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 21,
-        "sample_count": 1074
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 23,
-        "sample_count": 14
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 24,
-        "sample_count": 16
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 25,
-        "sample_count": 107
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 26,
-        "sample_count": 139
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 27,
-        "sample_count": 125
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 28,
-        "sample_count": 61
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 29,
-        "sample_count": 531
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 3,
-        "sample_count": 89
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 31,
-        "sample_count": 73
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 32,
-        "sample_count": 452
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 33,
-        "sample_count": 127
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 34,
-        "sample_count": 668
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 35,
-        "sample_count": 652
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 4,
-        "sample_count": 367
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 5,
-        "sample_count": 482
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 6,
-        "sample_count": 81
-      },
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 7,
+        "segment_index": 107,
         "sample_count": 83
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 8,
-        "sample_count": 226
-      }
-    ]
-  },
-  "val": {
-    "record_count": 3784,
-    "group_count": 4,
-    "groups": [
-      {
-        "split_mode": "segment",
-        "video_stem": "test2",
-        "segment_index": 11,
-        "sample_count": 1978
+        "segment_index": 108,
+        "sample_count": 103
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 18,
-        "sample_count": 1445
+        "segment_index": 109,
+        "sample_count": 127
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 11,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 111,
+        "sample_count": 414
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 112,
+        "sample_count": 85
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 113,
+        "sample_count": 20
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 114,
+        "sample_count": 6
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 115,
+        "sample_count": 91
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 116,
+        "sample_count": 222
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 121,
+        "sample_count": 34
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 124,
+        "sample_count": 28
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 126,
+        "sample_count": 10
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 13,
+        "sample_count": 41
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 133,
+        "sample_count": 18
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 134,
+        "sample_count": 47
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 138,
+        "sample_count": 12
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 139,
+        "sample_count": 45
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 14,
+        "sample_count": 39
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 140,
+        "sample_count": 57
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 144,
+        "sample_count": 10
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 15,
+        "sample_count": 69
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 150,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 151,
+        "sample_count": 6
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 155,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 156,
+        "sample_count": 2
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 157,
+        "sample_count": 22
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 158,
+        "sample_count": 24
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 163,
+        "sample_count": 10
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 165,
+        "sample_count": 2
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 166,
+        "sample_count": 478
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 167,
+        "sample_count": 287
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 168,
+        "sample_count": 22
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 169,
+        "sample_count": 16
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 17,
+        "sample_count": 10
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 170,
+        "sample_count": 55
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 171,
+        "sample_count": 69
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 172,
+        "sample_count": 81
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 173,
+        "sample_count": 67
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 2,
+        "sample_count": 32
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 23,
+        "sample_count": 18
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 26,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 27,
+        "sample_count": 65
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 28,
+        "sample_count": 49
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 29,
+        "sample_count": 77
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
         "segment_index": 30,
+        "sample_count": 34
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 31,
+        "sample_count": 18
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 32,
+        "sample_count": 28
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 33,
+        "sample_count": 99
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 34,
+        "sample_count": 420
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 35,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 36,
+        "sample_count": 69
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 40,
+        "sample_count": 26
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 45,
+        "sample_count": 2
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 47,
+        "sample_count": 22
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 48,
         "sample_count": 8
       },
       {
         "split_mode": "segment",
         "video_stem": "test2",
-        "segment_index": 9,
-        "sample_count": 353
+        "segment_index": 49,
+        "sample_count": 28
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 5,
+        "sample_count": 28
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 50,
+        "sample_count": 24
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 52,
+        "sample_count": 293
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 54,
+        "sample_count": 93
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 57,
+        "sample_count": 16
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 59,
+        "sample_count": 2
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 68,
+        "sample_count": 8
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 7,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 71,
+        "sample_count": 6
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 72,
+        "sample_count": 14
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 73,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 78,
+        "sample_count": 22
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 81,
+        "sample_count": 10
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 83,
+        "sample_count": 28
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 85,
+        "sample_count": 16
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 86,
+        "sample_count": 8
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 91,
+        "sample_count": 38
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 92,
+        "sample_count": 4
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 94,
+        "sample_count": 53
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 99,
+        "sample_count": 22
+      }
+    ]
+  },
+  "val": {
+    "record_count": 1478,
+    "group_count": 4,
+    "groups": [
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 117,
+        "sample_count": 836
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 118,
+        "sample_count": 119
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 16,
+        "sample_count": 6
+      },
+      {
+        "split_mode": "segment",
+        "video_stem": "test2",
+        "segment_index": 53,
+        "sample_count": 517
       }
     ]
   }

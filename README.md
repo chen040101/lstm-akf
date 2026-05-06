@@ -37,11 +37,14 @@ python scripts/build_dataset.py --val-ratio 0.2 --split-mode segment
 python scripts/train.py --device cuda --epochs 200 --batch-size 64 --early-stopping-patience 20
 python scripts/validate.py --device cuda --checkpoint outputs/exp001/checkpoints/best.pt
 python scripts/compare_models.py --device cuda --point-frames 8 15 --sequence-horizons 8 15
+python scripts/visualize_predictions.py --device cuda --sample-index 0 --num-samples 5 --horizons 1 8 15
 ```
 
 ## 说明
 
 - 数据集构建后会输出训练集、验证集和划分清单。
+- 新构建的数据集 JSON 会额外保留 `meta`，用于把样本映射回原视频帧。
 - 主模型默认一次输出未来 `1~15` 帧预测结果。
 - 对比脚本期望 `Baseline Models/lstm_akf/checkpoints/best.pt` 已存在。
+- 可视化脚本默认每张图只画一个来源，不生成局部放大图；用 `--num-samples` 控制输出多少组样本。
 - 更详细的说明请查看 `docs/` 目录。

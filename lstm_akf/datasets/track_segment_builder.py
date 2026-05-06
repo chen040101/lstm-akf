@@ -85,6 +85,7 @@ def load_detection_rows(input_path: str | Path) -> List[Dict[str, Any]]:
                 {
                     "video_name": raw.get("video_name") or raw.get("video_stem") or "unknown",
                     "video_stem": raw.get("video_stem") or Path(raw.get("video_name") or "unknown").stem,
+                    "video_path": raw.get("video_path") or "",
                     "frame_index": _safe_int(raw.get("frame_index")) or 0,
                     "timestamp": _safe_float(raw.get("timestamp")),
                     "fps": _safe_float(raw.get("fps")) or 0.0,
@@ -127,10 +128,16 @@ def _append_point(
     )
 
 
-def _new_segment(video_name: str, segment_index: int, fps: float) -> Dict[str, Any]:
+def _new_segment(
+    video_name: str,
+    segment_index: int,
+    fps: float,
+    video_path: str | Path | None = None,
+) -> Dict[str, Any]:
     return {
         "video_name": video_name,
         "video_stem": Path(video_name).stem,
+        "video_path": "" if video_path is None else str(video_path),
         "segment_index": int(segment_index),
         "fps": float(fps) if fps else 0.0,
         "points": [],
@@ -177,6 +184,7 @@ def build_track_segments(rows: Sequence[Dict[str, Any]], config: TrackBuildConfi
         for row in video_rows:
             frame_index = int(row["frame_index"])
             timestamp = row.get("timestamp")
+            video_path = str(row.get("video_path") or "")
             row_fps = float(row.get("fps") or fps or 0.0)
             if row_fps > 0:
                 fps = row_fps
@@ -208,7 +216,7 @@ def build_track_segments(rows: Sequence[Dict[str, Any]], config: TrackBuildConfi
 
             if observation is not None:
                 if current_segment is None:
-                    current_segment = _new_segment(video_name, segment_index, fps)
+                    current_segment = _new_segment(video_name, segment_index, fps, video_path=video_path)
                 _append_point(
                     current_segment,
                     frame_index=frame_index,

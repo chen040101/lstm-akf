@@ -273,6 +273,7 @@ def _load_segments_from_csv(input_path: str | Path) -> List[Dict[str, Any]]:
                 {
                     "video_name": video_name,
                     "video_stem": Path(video_name).stem,
+                    "video_path": row.get("video_path") or "",
                     "segment_index": segment_index,
                     "fps": float(row.get("fps") or 0.0),
                     "points": [],
@@ -348,11 +349,32 @@ def build_samples_from_segment(
                 "meta": {
                     "video_name": segment.get("video_name"),
                     "video_stem": segment.get("video_stem"),
+                    "video_path": segment.get("video_path") or "",
+                    "fps": float(segment.get("fps") or 0.0),
                     "segment_index": int(segment.get("segment_index", 0)),
                     "sample_index": sample_index,
                     "start_frame_index": points[history_start]["frame_index"],
                     "history_end_frame_index": points[current_index - 1]["frame_index"],
                     "target_end_frame_index": points[current_index + config.future_steps - 1]["frame_index"],
+                    "history_frame_indices": [
+                        int(point.get("frame_index", index))
+                        for index, point in enumerate(points[history_start:current_index], start=history_start)
+                    ],
+                    "target_frame_indices": [
+                        int(point.get("frame_index", index))
+                        for index, point in enumerate(
+                            points[current_index : current_index + config.future_steps],
+                            start=current_index,
+                        )
+                    ],
+                    "history_timestamps": [
+                        None if point.get("timestamp") is None else float(point["timestamp"])
+                        for point in points[history_start:current_index]
+                    ],
+                    "target_timestamps": [
+                        None if point.get("timestamp") is None else float(point["timestamp"])
+                        for point in points[current_index : current_index + config.future_steps]
+                    ],
                 },
             }
         )
@@ -388,6 +410,7 @@ def iter_json_samples_from_segments(
             payload = {
                 "input": _format_xy_sequence(sample["history_xy"]),
                 "target": _format_xy_sequence(sample["target_xy"]),
+                "meta": sample["meta"],
             }
             yield filename, payload
 
@@ -730,7 +753,10 @@ class JsonSampleDataset(Dataset):
             "target_xy": target_xy,
         }
         if self.return_meta:
-            item["meta"] = {"sample_path": str(sample_path)}
+            item["meta"] = {
+                "sample_path": str(sample_path),
+                **dict(payload.get("meta") or {}),
+            }
         return item
 
 
